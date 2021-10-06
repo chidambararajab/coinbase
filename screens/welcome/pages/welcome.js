@@ -26,6 +26,7 @@ export const Welcome = (props) => {
               disable={false}
               btnStyle={styles.btnStyle}
               btnTextStyle={styles.btnTextStyle}
+              onPress={() => navigation.navigate("CreateAccount")}
             />
             <Button
               title="SignIn"
